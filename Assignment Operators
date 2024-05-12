@@ -1,0 +1,39 @@
+1. Create a variable and assign it the sum of two integers
+X = 4 
+Y = 5
+Z = X + Y
+print(Z)
+
+2. Create a variable and assign it the difference of two integers
+X = 5
+Y = 4
+Z = X - Y
+print(Z)
+
+
+3. Create a variable and assign it the result of one integer being divided by another integer
+X = 9 
+Y = 3
+Z = X / Y
+print(Z)
+
+
+4. Create a variable and assign it the product of two integers
+X = 2
+Y = 3
+Z = X * Y
+print(Z)
+
+
+5. Create a variable and assign it the result of 3 raised to the 8th power
+X = 3**8
+print(X)
+
+6. Create a variable and assign it the result of 10 floor division 3
+X = 10//3
+print(X)
+
+7. Create a variable and assign it the integer 2 using the expression 17 modulo [number]
+X = 15
+Y = 17 % X
+print(Y)
