@@ -1,0 +1,105 @@
+# .keys():
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print(birth_year.keys())
+
+# dict_keys([1994, 1969, 1982, 2000])
+
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+for key in birth_year.keys():
+# print(key)
+# 1994
+# 1969
+# 1982
+# 2000
+
+# .values():
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+for values in birth_year.values():
+# print(values)
+# bill
+# emily
+# elizabeth
+# turner
+
+# .items():
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print(birth_year.items())
+# dict_items([(1994, 'bill'), (1969, 'emily'), (1982, 'elizabeth'), (2000, 'turner')])
+
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+for key, value in birth_year.items():
+  print(key, value)
+
+# 1994 bill
+# 1969 emily
+# 1982 elizabeth
+# 2000 turner
+
+# Using in and not in
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print ("elizabeth" in birth_year.values())
+True
+
+# .get()
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print (birth_year.get(1975, "1975 is not a key in birth_years"))
+
+1975 is not a key in birth_years
+
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print (len(birth_year))
+4
+
+# .fromkeys()
+ex_1 = {}.fromkeys("ad", "1600 Pennsylvania avenue NW")
+print(ex_1)
+{'a': '1600 Pennsylvania avenue NW', 'd': '1600 Pennsylvania avenue NW'}
+
+
+ex_1 = {}.fromkeys(["brand"])
+print(ex_1)
+{‘brand’: None}
+
+# .pop()
+ex_2 = {"make": "Honda", "model": "civic", "year": 2016}
+ex_2.pop("model")
+print(ex_2)
+{"make": "Honda", "year": 2016}
+
+# Dictionary method 3: .clear(), .copy() and .update()
+ex_1 = {1: "England", 2: "Scotland", 3: "Wales", 4:"Norhern Island"}
+print(ex_1)
+ex_1.clear()
+print(ex_1)
+
+{1: 'England', 2: 'Scotland', 3: 'Wales', 4: 'Norhern Island'}
+{}
+
+
+birth_year = {1994: "bill", 1969: "emily", 1982: "elizabeth", 2000: "turner"}
+print(birth_year)
+people=birth_year
+people[1982] = "madeline"
+print(birth_year)
+{1994: 'bill', 1969: 'emily', 1982: 'elizabeth', 2000: 'turner'}
+{1994: 'bill', 1969: 'emily', 1982: 'madeline', 2000: 'turner'}
+
+
+# Dictionary method 4: .setdefault()
+computers = {"Google": "Chromebook", "Apple": "Macbook", "Microsoft": "Windows"}
+if "Lenovo" not in computers:
+  computers["Lenovo"] = "Thinkpad"
+print(computers)
+{'Google': 'Chromebook', 'Apple': 'Macbook', 'Microsoft': 'Windows', 'Lenovo': 'Thinkpad'}
+
+computers = {"Google": "Chromebook", "Apple": "Macbook", "Microsoft": "Windows"}
+computers.setdefault("Lenovo", "Thinkpad")
+print(computers)
+{'Google': 'Chromebook', 'Apple': 'Macbook', 'Microsoft': 'Windows', 'Lenovo': 'Thinkpad'}
+
+empty = dict()
+print(empty)
+with_values = dict(a=1, b=2, c=3)
+print(with_values)
+{}
+{'a': 1, 'b': 2, 'c': 3}
