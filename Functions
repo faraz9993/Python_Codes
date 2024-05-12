@@ -1,0 +1,39 @@
+def faraz(x):
+  print(x+2)
+faraz(8)
+
+10
+
+# -----------------------
+
+first = "The number "
+def function(p1, p2, p3):
+  print(p1 + str(p2) + p3)
+function(first, 5, " is an integer.")
+
+# -----------------------
+
+def x(num1=7, num2=8):
+	print(num1 * num2)
+x()
+
+56
+
+# ----------------------------
+
+def x(num1=7, num2=8):
+  return (num1 * num2)
+print (x() + 44)
+
+100
+
+# ----------------------------
+
+# 1. Create a function called name_printer which takes 1 parameter and prints it.
+# 2. Create a variable called name and assign it user input(). input()'s message should ask the user to enter their name.
+# 3. Call name_printer() with the variable "name" as its argument.
+
+def name_printer(user_name):
+  print(user_name)
+name = input("What is your name: ")
+name_printer(name)
