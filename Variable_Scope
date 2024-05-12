@@ -1,0 +1,58 @@
+1.
+words = "hello world"
+
+def hi_world():
+    return words
+
+print(hi_world())
+
+O/P:
+hello world
+
+2.
+def pi_returner():
+    approx = 3.14
+    return approx
+
+print(pi_returner())
+
+
+O/P:
+3.14
+
+3.
+def float_holder():
+  flo = 21.9
+  return flo
+float_holder()
+print(flo)
+
+O/P:
+It will display an error message.
+
+4.
+an_int = 50
+
+
+def inty():
+    an_int = 100
+    return an_int
+
+
+print(inty())
+
+O/P:
+The program will print 100.
+
+5.
+an_int = 50
+
+
+def inty():
+    an_int = 100
+    return an_int
+
+print(an_int)
+
+O/P:
+It will print 50.
