@@ -1,0 +1,13 @@
+1. create a variable and assign it an integer
+integer = 7
+
+2. create a second variable and assign it a float
+float_num = 2.718
+
+3. create a third variable and assign it a Boolean value
+bool_val = False
+
+4. re-assign a different integer to the first variable you created 
+integer = 10
+ 
+
