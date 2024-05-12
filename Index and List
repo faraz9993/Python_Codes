@@ -1,0 +1,109 @@
+# Lists
+print(list("blast"))
+['b', 'l', 'a', 's', 't']
+
+checked_list = [1, 2, 3, 4]
+print(1 in checked_list)
+True
+
+checked_list = [1, 2, 3, 4]
+print(8 in checked_list)
+False
+
+# Indexes and list slicing
+Index_Example = ["carpet", "hardwood", "linoleum"]
+print(Index_Example[0])
+# carpet
+
+Index_Example = ["carpet", "hardwood", "linoleum"]
+print(Index_Example[1])
+# hardwood
+
+Index_EXample = [[1,2,3],[4,5,6],[7,8,9]]
+print(Index_EXample[2][0])
+7
+
+Index_Example = ["carpet","hardwood", "linoleum"]
+print(Index_Example[2][0])
+# l
+
+
+# Negative Indexes
+negative = [1,2,3,4,5]
+print(negative[-1])
+5
+
+# Using items accessed by indexes in expressions:
+
+mixed = [False, 365, 4.24, "This is a string"]
+print(mixed[2] + 1.76)
+6.0
+
+
+# List Slicing
+sliced = [1,2,3,4,5,6,7,8,9]
+print(sliced[:4])
+print(sliced[3:8])
+print(sliced[6:])
+
+# O/P:
+[1,2,3,4]
+[4,5,6,7,8]
+[7,8,9]
+
+example = [2,4,6,8,0]
+print(example)
+example[3] = 10
+print(example)
+
+# O/P:
+[2,4,6,8,0]
+[2,4,6,10,0]
+
+# del and list methods
+planets = ["pluto", "mars", "earth", "venus"]
+del planets[0]
+print(planets)
+["mars", "earth", "venus"]
+
+
+
+# .remove()
+planets = ["pluto", "mars", "earth", "venus"]
+planets.remove("pluto")
+print(planets)
+["mars", "earth", "venus"]
+
+# .append()
+pets = ["cat", "dog", "parrot"]
+pets.append("fish")
+print(pets)
+["cat", "dog", "parrot", "fish"]
+
+# .insert()
+pets = ["cat", "dog", "parrot"]
+pets.insert(1, "fish")
+print(pets)
+["cat", "fish", "dog", "parrot"]
+
+# .sort()
+num_list=[2.718, 4, -19, 1000, 0]
+num_list.sort()
+print(num_list)
+[-19, 0, 2.718, 4, 1000]
+
+str_list = ["Ringo", "John", "George", "Paul"]
+str_list.sort()
+print(str_list)
+['George', 'John', 'Paul', 'Ringo']
+
+
+ASCII = ["Andy", "Kiwi", "apple", "Karen", "Brian", "banana"]
+ASCII.sort()
+print(ASCII)
+['Andy', 'Brian', 'Karen', 'Kiwi', 'apple', 'banana']
+
+# .index()
+metals = ["copper", "gold", "silver", "iron"]
+print(metals.index("silver"))
+2
