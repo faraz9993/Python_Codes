@@ -1,0 +1,17 @@
+word = "House"
+for letter in word:
+  print(letter)
+
+# H
+# o
+# u
+# s
+# e
+
+
+# For Loops Exercise
+# Use a for loop to print each letter from the string "hello world".
+
+word = "Hello world"
+for letter in word:
+  print(letter)
