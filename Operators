@@ -1,0 +1,100 @@
+print (4 > 2)
+True
+
+# In this example, the first print statement resulted in true since 4 is greater than 2.
+# Same way,
+
+print (4 == 4)
+True
+
+print(5.79 < 6)
+True
+
+print(3 < 3)
+False
+
+print(9 >= 9)
+True
+
+print(1 <= 2)
+True
+
+print(10 != 100)
+True
+
+print(10 != 10)
+False
+print ("Hello" == "Hello")
+True
+
+print ("Hello" != "World")
+True
+
+print (4 == 4.0)
+True
+
+print (4 >= 4.0)
+True
+
+# "and" operators
+# - Both the conditions must be True to get the True as an output.
+# True and True					True
+# True and False				False
+# False and False				False
+# False and True				False
+
+# Ex.
+print(4>1 and "word" == "word")
+True
+
+print(8.76 == 8.7600 and 2 != 2)
+false
+
+# "or"  operators
+# Any one condition is True the output will be True
+# True or True					True
+# True or False					True
+# False or False				False
+# False or True					True
+
+
+# Ex.
+print(4>1 or "word" == "word")
+True
+
+print(8.76 == 8.7600 or 2 != 2)
+True
+
+# "not" operator
+# If the condition is False not will make is True. Same way,
+# if the condition is True not will make is False
+# not True					False
+# not False					True
+
+# Ex.
+print(not 6480 < 0)
+True
+
+print(not "Python" != "Python")
+False
+
+# What is the operator that is used to check if two things are identical?
+# ==
+
+# What comparison operator is used to check if something is not equal to something else?
+# !=
+
+# What are the two comparison operators that are used to represent less than and greater than?
+# < and >
+
+# What are the two comparison operators that are used to represent less than or equal to and greater than or equal to?
+# <= and >=
+
+# What does True and False evaluate to?
+# False
+
+# What does print("PIZZA" == "pizza" or 100 == 100.00) evaluate to?
+# True
+
+# What comparison operators out of the 3 options available should be used in place of the question marks for this not True ? False and "green" ? "red" to evaluate to True?
+# == and !=
